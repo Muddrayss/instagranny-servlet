@@ -1,0 +1,17 @@
+<?xml version="1.1" encoding="ISO-8859-1"?>
+
+<!--Ennio Gualandi-->
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+
+    <servlet>
+        <servlet-name>Auth</servlet-name>
+        <servlet-class>AuthHandler</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Auth</servlet-name>
+        <url-pattern>/auth</url-pattern>
+    </servlet-mapping>
+
+</web-app>
