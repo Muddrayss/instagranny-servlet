@@ -8,9 +8,9 @@
     <title>Home</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="relative flex flex-row justify-center items-start gap-8 min-h-[100dvh] w-full bg-gray-50 dark:bg-gray-900 pb-8">
+<body class="relative grid grid-cols-2 px-24 justify-center items-start gap-8 min-h-[100dvh] w-full bg-gray-50 dark:bg-gray-900 pb-8">
 <!-- Discover Latest Posts - Left Column - Start -->
-<div class="max-w-screen-sm w-full flex-col gap-6">
+<div class="w-full">
     <h2 class="mt-3 mb-6 self-start text-3xl font-semibold text-black dark:text-white">
         Discover the latest posts!
     </h2>
@@ -108,7 +108,7 @@
 </div>
 <!-- Discover Latest Posts - Left Column - End -->
 <!-- Post something new - Right Column - Start -->
-<div class="sticky top-0 max-w-screen-sm w-full">
+<div class="sticky top-0 w-full">
     <h2 class="mt-3 mb-6 self-start text-3xl font-semibold text-black dark:text-white">
         Post something new!
     </h2>
