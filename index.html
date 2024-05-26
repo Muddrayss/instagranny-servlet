@@ -13,12 +13,13 @@
             <img class="w-8 h-8 mr-2" src="./images/monkey.png" alt="logo">
             Monkey
         </div>
-        <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+        <div class="w-full rounded-lg md:mt-0 sm:max-w-md xl:p-0 bg-white shadow dark:border dark:bg-gray-800 dark:border-gray-700">
             <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
                 <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
                     Log in to your account
                 </h1>
                 <form class="space-y-4 md:space-y-6" action="auth" method="post">
+                    <input type="hidden" name="action" value="login">
                     <div>
                         <label for="username" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Username</label>
                         <input type="text" name="username" id="username"
