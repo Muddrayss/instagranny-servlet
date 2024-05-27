@@ -17,9 +17,6 @@
     <div class="w-full flex flex-col gap-3">
         <%
             List<Map<String, Object>> posts = (List<Map<String, Object>>) request.getAttribute("posts");
-
-            System.out.println("Posts in JSP: " + posts); // Debug statement
-            
             if (posts != null) {
                 for (Map<String, Object> post : posts) {
                     String postUsername = (String) post.get("post_username");
