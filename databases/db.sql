@@ -4,7 +4,7 @@ USE db_instagranny;
 
 CREATE TABLE IF NOT EXISTS GrannyUser (
 	username VARCHAR(50) PRIMARY KEY,
-	password VARCHAR(512)
+	password VARCHAR(1024)
 );
 
 CREATE TABLE IF NOT EXISTS Post (
